@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #121212;
+  color: paleturquoise;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Temperature converter box */
+.temp-converter {
+  background: #1e1e1e;
+  padding: 40px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.temp-converter h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input field */
+#temperatureInput {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  font-size: 16px;
+}
+
+/* Radio buttons */
+.radio-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+/* Result display */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
